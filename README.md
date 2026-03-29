@@ -11,6 +11,7 @@
 
 ---
 
+[DOWNLOAD NOW](https://github.com/YASSER-27/NextVault/releases/tag/v1) 
 ## 📖 Introduction
 **NextVault** is an innovative local-first software ecosystem designed to seamlessly connect a desktop server/dashboard with mobile clients over a local network. It acts as a bridge for offline communities, allowing users to share media, host chatrooms, distribute applications, and moderate content without ever needing an active internet connection.
 
